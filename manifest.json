@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "CDA tools",
+    "description": "CDA ptools",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["https://www.cda.pl/*"],
+        "js": ["premium_remover.js", "video_link.js"]
+      }
+    ]
+   }
